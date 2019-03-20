@@ -16,7 +16,7 @@ let index = 0;
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
  console.log (key)
-  if (key === alphabet[index]) {
+  if (key == alphabet[index]) {
     index++;
  
     if (index === alphabet.length) {
